@@ -1,0 +1,2 @@
+<!DOCTYPE html>
+<html><body><h1>Customer Portal</h1></body></html>

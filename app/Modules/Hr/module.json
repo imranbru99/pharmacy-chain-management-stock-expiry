@@ -1,0 +1,20 @@
+{
+    "key": "hr",
+    "name": "HR & Payroll",
+    "version": "1.0.0",
+    "description": "Employees, shifts, leave, and payroll hooks.",
+    "dependencies": [],
+    "permissions": [
+        "hr.view",
+        "hr.manage",
+        "hr.payroll"
+    ],
+    "navigation": {
+        "group": "Back Office",
+        "icon": "heroicon-o-briefcase",
+        "sort": 170
+    },
+    "settings_schema": {},
+    "default_enabled": false,
+    "always_on": false
+}

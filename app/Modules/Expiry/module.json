@@ -1,0 +1,23 @@
+{
+    "key": "expiry",
+    "name": "Expiry Tracking",
+    "version": "1.0.0",
+    "description": "Near-expiry alerts, FEFO, and destruction logs.",
+    "dependencies": [
+        "stock",
+        "catalog"
+    ],
+    "permissions": [
+        "expiry.view",
+        "expiry.manage",
+        "expiry.dispose"
+    ],
+    "navigation": {
+        "group": "Catalog & Inventory",
+        "icon": "heroicon-o-clock",
+        "sort": 30
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

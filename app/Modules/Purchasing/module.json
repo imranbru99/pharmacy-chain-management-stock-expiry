@@ -1,0 +1,24 @@
+{
+    "key": "purchasing",
+    "name": "Purchasing & GRN",
+    "version": "1.0.0",
+    "description": "Purchase orders, goods receipt, and supplier invoices.",
+    "dependencies": [
+        "suppliers",
+        "catalog"
+    ],
+    "permissions": [
+        "purchasing.view",
+        "purchasing.create",
+        "purchasing.approve",
+        "purchasing.receive"
+    ],
+    "navigation": {
+        "group": "Purchasing",
+        "icon": "heroicon-o-shopping-cart",
+        "sort": 80
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

@@ -1,0 +1,21 @@
+{
+    "key": "users",
+    "name": "Users & Access Control",
+    "version": "1.0.0",
+    "description": "Staff accounts, roles, and permissions.",
+    "dependencies": [],
+    "permissions": [
+        "users.view",
+        "users.create",
+        "users.update",
+        "users.delete"
+    ],
+    "navigation": {
+        "group": "System",
+        "icon": "heroicon-o-users",
+        "sort": 2
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": true
+}

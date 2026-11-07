@@ -1,0 +1,21 @@
+{
+    "key": "customers",
+    "name": "Customers & Patients",
+    "version": "1.0.0",
+    "description": "Customer profiles, allergies, and purchase history.",
+    "dependencies": [],
+    "permissions": [
+        "customers.view",
+        "customers.create",
+        "customers.update",
+        "customers.delete"
+    ],
+    "navigation": {
+        "group": "CRM",
+        "icon": "heroicon-o-user-group",
+        "sort": 120
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

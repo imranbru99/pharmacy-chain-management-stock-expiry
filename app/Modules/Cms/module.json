@@ -1,0 +1,21 @@
+{
+    "key": "cms",
+    "name": "CMS & Pages",
+    "version": "1.0.0",
+    "description": "Landing pages, FAQs, and pharmacy microsite.",
+    "dependencies": [],
+    "permissions": [
+        "cms.view",
+        "cms.create",
+        "cms.update",
+        "cms.publish"
+    ],
+    "navigation": {
+        "group": "E-Commerce",
+        "icon": "heroicon-o-newspaper",
+        "sort": 220
+    },
+    "settings_schema": {},
+    "default_enabled": false,
+    "always_on": false
+}

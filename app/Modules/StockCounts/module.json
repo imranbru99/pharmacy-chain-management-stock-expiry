@@ -1,0 +1,22 @@
+{
+    "key": "stock_counts",
+    "name": "Stock Counts & Audits",
+    "version": "1.0.0",
+    "description": "Physical stock counts and variance reconciliation.",
+    "dependencies": [
+        "stock"
+    ],
+    "permissions": [
+        "stock_counts.view",
+        "stock_counts.create",
+        "stock_counts.approve"
+    ],
+    "navigation": {
+        "group": "Catalog & Inventory",
+        "icon": "heroicon-o-clipboard-document-check",
+        "sort": 50
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

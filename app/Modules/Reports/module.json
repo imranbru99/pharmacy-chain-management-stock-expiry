@@ -1,0 +1,20 @@
+{
+    "key": "reports",
+    "name": "Reports & Analytics",
+    "version": "1.0.0",
+    "description": "Operational and financial report builder.",
+    "dependencies": [],
+    "permissions": [
+        "reports.view",
+        "reports.export",
+        "reports.schedule"
+    ],
+    "navigation": {
+        "group": "Insights",
+        "icon": "heroicon-o-presentation-chart-line",
+        "sort": 210
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

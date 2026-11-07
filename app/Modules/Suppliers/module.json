@@ -1,0 +1,21 @@
+{
+    "key": "suppliers",
+    "name": "Suppliers",
+    "version": "1.0.0",
+    "description": "Supplier directory, contacts, and lead times.",
+    "dependencies": [],
+    "permissions": [
+        "suppliers.view",
+        "suppliers.create",
+        "suppliers.update",
+        "suppliers.delete"
+    ],
+    "navigation": {
+        "group": "Purchasing",
+        "icon": "heroicon-o-truck",
+        "sort": 70
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

@@ -1,0 +1,22 @@
+{
+    "key": "ai",
+    "name": "AI Assistant",
+    "version": "1.0.0",
+    "description": "Tenant-aware AI helpers with masked prompts.",
+    "dependencies": [
+        "catalog"
+    ],
+    "permissions": [
+        "ai.view",
+        "ai.use",
+        "ai.manage"
+    ],
+    "navigation": {
+        "group": "System",
+        "icon": "heroicon-o-sparkles",
+        "sort": 200
+    },
+    "settings_schema": {},
+    "default_enabled": false,
+    "always_on": false
+}

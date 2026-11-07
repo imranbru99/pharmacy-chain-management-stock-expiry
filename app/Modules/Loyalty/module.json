@@ -1,0 +1,22 @@
+{
+    "key": "loyalty",
+    "name": "Loyalty & Rewards",
+    "version": "1.0.0",
+    "description": "Points, tiers, and redemption rules.",
+    "dependencies": [
+        "customers"
+    ],
+    "permissions": [
+        "loyalty.view",
+        "loyalty.manage",
+        "loyalty.redeem"
+    ],
+    "navigation": {
+        "group": "CRM",
+        "icon": "heroicon-o-gift",
+        "sort": 130
+    },
+    "settings_schema": {},
+    "default_enabled": false,
+    "always_on": false
+}

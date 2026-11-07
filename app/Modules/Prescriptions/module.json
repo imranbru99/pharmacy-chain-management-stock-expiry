@@ -1,0 +1,22 @@
+{
+    "key": "prescriptions",
+    "name": "Prescriptions",
+    "version": "1.0.0",
+    "description": "Rx capture, validation, and dispensing links.",
+    "dependencies": [
+        "customers"
+    ],
+    "permissions": [
+        "prescriptions.view",
+        "prescriptions.create",
+        "prescriptions.dispense"
+    ],
+    "navigation": {
+        "group": "Clinical",
+        "icon": "heroicon-o-document-text",
+        "sort": 110
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

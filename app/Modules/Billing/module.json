@@ -1,0 +1,20 @@
+{
+    "key": "billing",
+    "name": "SaaS Billing",
+    "version": "1.0.0",
+    "description": "Subscription plans, usage limits, and invoices.",
+    "dependencies": [],
+    "permissions": [
+        "billing.view",
+        "billing.manage",
+        "billing.subscribe"
+    ],
+    "navigation": {
+        "group": "System",
+        "icon": "heroicon-o-credit-card",
+        "sort": 230
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

@@ -1,0 +1,19 @@
+{
+    "key": "core",
+    "name": "Core \u2014 Tenant, Branch & Settings",
+    "version": "1.0.0",
+    "description": "Foundation tenancy, branches, and global settings.",
+    "dependencies": [],
+    "permissions": [
+        "core.view",
+        "core.manage"
+    ],
+    "navigation": {
+        "group": "System",
+        "icon": "heroicon-o-cog-6-tooth",
+        "sort": 1
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": true
+}

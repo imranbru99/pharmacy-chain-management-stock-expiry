@@ -1,0 +1,23 @@
+{
+    "key": "online_orders",
+    "name": "Online Orders",
+    "version": "1.0.0",
+    "description": "Web and mobile order intake for pickup or delivery.",
+    "dependencies": [
+        "catalog",
+        "customers"
+    ],
+    "permissions": [
+        "online_orders.view",
+        "online_orders.manage",
+        "online_orders.fulfill"
+    ],
+    "navigation": {
+        "group": "E-Commerce",
+        "icon": "heroicon-o-globe-alt",
+        "sort": 140
+    },
+    "settings_schema": {},
+    "default_enabled": false,
+    "always_on": false
+}

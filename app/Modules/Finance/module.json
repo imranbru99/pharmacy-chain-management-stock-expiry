@@ -1,0 +1,20 @@
+{
+    "key": "finance",
+    "name": "Finance & Accounting",
+    "version": "1.0.0",
+    "description": "Ledgers, expenses, and payment reconciliation.",
+    "dependencies": [],
+    "permissions": [
+        "finance.view",
+        "finance.manage",
+        "finance.export"
+    ],
+    "navigation": {
+        "group": "Back Office",
+        "icon": "heroicon-o-calculator",
+        "sort": 160
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-brand: #0b6e4f;
+    --color-brand-dark: #074d37;
+    --color-mint-wash: #e8f6f1;
+    --color-mint-soft: #f4fbf8;
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-body: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+    body.public-site {
+        font-family: var(--font-body);
+        color: #0f2f26;
+        background: var(--color-mint-soft);
+    }
+
+    .font-display {
+        font-family: var(--font-display);
+    }
+}
+
+@layer components {
+    .hero-bleed {
+        background:
+            radial-gradient(circle at 20% 20%, rgba(11, 110, 79, 0.18), transparent 45%),
+            radial-gradient(circle at 80% 0%, rgba(16, 150, 108, 0.15), transparent 40%),
+            linear-gradient(135deg, #e8f6f1 0%, #f4fbf8 40%, #dff1ea 100%);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero-bleed::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: 0.35;
+        background-image: repeating-linear-gradient(
+            45deg,
+            rgba(11, 110, 79, 0.06) 0,
+            rgba(11, 110, 79, 0.06) 2px,
+            transparent 2px,
+            transparent 14px
+        );
+        pointer-events: none;
+    }
+
+    .btn-brand {
+        @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold text-white shadow-sm transition;
+        background: var(--color-brand);
+    }
+
+    .btn-brand:hover {
+        background: var(--color-brand-dark);
+    }
+
+    .btn-outline-brand {
+        @apply inline-flex items-center justify-center rounded-full border px-6 py-3 text-sm font-semibold transition;
+        border-color: var(--color-brand);
+        color: var(--color-brand);
+    }
+
+    .card-glass {
+        @apply rounded-2xl border bg-white/80 p-6 shadow-sm backdrop-blur;
+        border-color: rgba(11, 110, 79, 0.15);
+    }
+}

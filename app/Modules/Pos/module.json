@@ -1,0 +1,24 @@
+{
+    "key": "pos",
+    "name": "Point of Sale",
+    "version": "1.0.0",
+    "description": "Counter sales, holds, and receipts.",
+    "dependencies": [
+        "stock",
+        "catalog"
+    ],
+    "permissions": [
+        "pos.view",
+        "pos.sell",
+        "pos.refund",
+        "pos.close_shift"
+    ],
+    "navigation": {
+        "group": "Sales",
+        "icon": "heroicon-o-computer-desktop",
+        "sort": 90
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

@@ -1,0 +1,22 @@
+{
+    "key": "catalog",
+    "name": "Medicine and Product Catalog",
+    "version": "1.0.0",
+    "description": "Medicines, generics, brands, barcodes, and pricing.",
+    "dependencies": [],
+    "permissions": [
+        "catalog.view",
+        "catalog.create",
+        "catalog.update",
+        "catalog.delete",
+        "catalog.import"
+    ],
+    "navigation": {
+        "group": "Catalog & Inventory",
+        "icon": "heroicon-o-beaker",
+        "sort": 10
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

@@ -1,0 +1,22 @@
+{
+    "key": "delivery",
+    "name": "Delivery & Dispatch",
+    "version": "1.0.0",
+    "description": "Riders, zones, and delivery tracking.",
+    "dependencies": [
+        "online_orders"
+    ],
+    "permissions": [
+        "delivery.view",
+        "delivery.dispatch",
+        "delivery.track"
+    ],
+    "navigation": {
+        "group": "E-Commerce",
+        "icon": "heroicon-o-map-pin",
+        "sort": 150
+    },
+    "settings_schema": {},
+    "default_enabled": false,
+    "always_on": false
+}

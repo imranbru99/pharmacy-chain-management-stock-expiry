@@ -1,0 +1,20 @@
+{
+    "key": "compliance",
+    "name": "Compliance & Licensing",
+    "version": "1.0.0",
+    "description": "Drug license tracking and regulatory reports.",
+    "dependencies": [],
+    "permissions": [
+        "compliance.view",
+        "compliance.manage",
+        "compliance.report"
+    ],
+    "navigation": {
+        "group": "Back Office",
+        "icon": "heroicon-o-shield-check",
+        "sort": 180
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

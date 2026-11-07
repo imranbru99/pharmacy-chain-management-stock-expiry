@@ -1,0 +1,19 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\Filament\Resources\GoodsReceiptResource\Pages;
+
+use App\Filament\Resources\GoodsReceiptResource;
+use Filament\Actions\DeleteAction;
+use Filament\Resources\Pages\EditRecord;
+
+class EditGoodsReceipt extends EditRecord
+{
+    protected static string $resource = GoodsReceiptResource::class;
+
+    protected function getHeaderActions(): array
+    {
+        return [DeleteAction::make()];
+    }
+}

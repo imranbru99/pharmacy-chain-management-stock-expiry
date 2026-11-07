@@ -1,0 +1,319 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Call to function is_array\(\) with string\|null will always evaluate to false\.$#'
+			identifier: function.impossibleType
+			count: 1
+			path: app/Core/Modules/ModuleManager.php
+
+		-
+			message: '#^Result of \|\| is always true\.$#'
+			identifier: booleanOr.alwaysTrue
+			count: 1
+			path: app/Core/Modules/ModuleManager.php
+
+		-
+			message: '#^Strict comparison using \=\=\= between array\{\} and array\{\} will always evaluate to true\.$#'
+			identifier: identical.alwaysTrue
+			count: 1
+			path: app/Core/Modules/ModuleManager.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>modules_json" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Core/Modules/ModuleManager.php
+
+		-
+			message: '#^Access to an undefined property App\\Filament\\Pages\\AiAssistantPage\:\:\$form\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Filament/Pages/AiAssistantPage.php
+
+		-
+			message: '#^Strict comparison using \=\=\= between App\\Modules\\Sales\\Models\\Sale and null will always evaluate to false\.$#'
+			identifier: identical.alwaysFalse
+			count: 1
+			path: app/Filament/Pages/PosTerminal.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Finance\\Models\\ChartOfAccount not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/AccountResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\AccountResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/AccountResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Cms\\Models\\CmsPage not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/CmsPageResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\CmsPageResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/CmsPageResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Cms\\Models\\CmsPost not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/CmsPostResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\CmsPostResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/CmsPostResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Compliance\\Models\\ColdChainLog not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/ColdChainLogResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\ColdChainLogResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/ColdChainLogResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Compliance\\Models\\ControlledDrugLog not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/ControlledDrugLogResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\ControlledDrugLogResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/ControlledDrugLogResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Delivery\\Models\\Delivery not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/DeliveryResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\DeliveryResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/DeliveryResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Compliance\\Models\\DrugLicense not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/DrugLicenseResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\DrugLicenseResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/DrugLicenseResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Hr\\Models\\Employee not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/EmployeeResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\EmployeeResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/EmployeeResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Finance\\Models\\Expense not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/ExpenseResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\ExpenseResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/ExpenseResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Finance\\Models\\JournalEntry not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/JournalEntryResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\JournalEntryResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/JournalEntryResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Hr\\Models\\LeaveRequest not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/LeaveRequestResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\LeaveRequestResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/LeaveRequestResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\OnlineOrders\\Models\\OnlineOrder not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/OnlineOrderResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\OnlineOrderResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/OnlineOrderResource.php
+
+		-
+			message: '#^Class App\\Filament\\Resources\\App\\Modules\\Hr\\Models\\PayrollRun not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Filament/Resources/PayrollRunResource.php
+
+		-
+			message: '#^Static property App\\Filament\\Resources\\PayrollRunResource\:\:\$model \(class\-string\<Illuminate\\Database\\Eloquent\\Model\>\|null\) does not accept default value of type string\.$#'
+			identifier: property.defaultValue
+			count: 1
+			path: app/Filament/Resources/PayrollRunResource.php
+
+		-
+			message: '#^The @use tag of class App\\Models\\User describes Illuminate\\Database\\Eloquent\\Factories\\HasFactory but the class uses Laravel\\Sanctum\\HasApiTokens\.$#'
+			identifier: generics.wrongParent
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: '#^Call to function is_string\(\) with string will always evaluate to true\.$#'
+			identifier: function.alreadyNarrowedType
+			count: 1
+			path: app/Modules/Ai/Services/AiAssistantService.php
+
+		-
+			message: '#^Property App\\Modules\\Expiry\\Models\\ProductRecall\:\:\$closed_at \(string\|null\) does not accept Illuminate\\Support\\Carbon\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: app/Modules/Expiry/Services/RecallService.php
+
+		-
+			message: '#^Method App\\Modules\\Notifications\\Services\\NotificationDispatcher\:\:sendSms\(\) returns void but does not have any side effects\.$#'
+			identifier: void.pure
+			count: 1
+			path: app/Modules/Notifications/Services/NotificationDispatcher.php
+
+		-
+			message: '#^Cannot call method format\(\) on string\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: app/Modules/Reports/Queries/ExpiryReport.php
+
+		-
+			message: '#^Parameter \#1 \$callback of method Illuminate\\Database\\Eloquent\\Collection\<int,App\\Modules\\Stock\\Models\\StockBatch\>\:\:map\(\) contains unresolvable type\.$#'
+			identifier: argument.unresolvableType
+			count: 1
+			path: app/Modules/Reports/Queries/ExpiryReport.php
+
+		-
+			message: '#^Using nullsafe method call on non\-nullable type string\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Modules/Reports/Queries/ExpiryReport.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>name" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Modules/Sales/Services/InvoicePdfService.php
+
+		-
+			message: '#^Access to undefined constant App\\Modules\\Stock\\Models\\StockLedger\:\:TYPE_SALE_RETURN\.$#'
+			identifier: classConstant.notFound
+			count: 1
+			path: app/Modules/Sales/Services/SaleReturnService.php
+
+		-
+			message: '#^Method App\\Support\\Adapters\\AdminPanelAdapter\:\:registerPanel\(\) should return string but returns ImranDevBD\\LaravelAdminPanel\\AdminPanel\.$#'
+			identifier: return.type
+			count: 1
+			path: app/Support/Adapters/AdminPanelAdapter.php
+
+		-
+			message: '#^Call to function is_array\(\) with null will always evaluate to false\.$#'
+			identifier: function.impossibleType
+			count: 1
+			path: app/Support/Adapters/AiHubAdapter.php
+
+		-
+			message: '#^Offset ''ai'' on array\{\}\|string on left side of \?\? does not exist\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: app/Support/Adapters/AiHubAdapter.php
+
+		-
+			message: '#^Offset ''api_key'' does not exist on array\{\}\.$#'
+			identifier: offsetAccess.notFound
+			count: 1
+			path: app/Support/Adapters/AiHubAdapter.php
+
+		-
+			message: '#^Offset ''api_key'' on array\{\} in empty\(\) does not exist\.$#'
+			identifier: empty.offset
+			count: 1
+			path: app/Support/Adapters/AiHubAdapter.php
+
+		-
+			message: '#^Offset ''model'' does not exist on array\{\}\.$#'
+			identifier: offsetAccess.notFound
+			count: 1
+			path: app/Support/Adapters/AiHubAdapter.php
+
+		-
+			message: '#^Offset ''model'' on array\{\} in empty\(\) does not exist\.$#'
+			identifier: empty.offset
+			count: 1
+			path: app/Support/Adapters/AiHubAdapter.php
+
+		-
+			message: '#^Offset ''provider'' on array\{\} on left side of \?\? does not exist\.$#'
+			identifier: nullCoalesce.offset
+			count: 1
+			path: app/Support/Adapters/AiHubAdapter.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>settings" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Support/Adapters/AiHubAdapter.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>locale" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 2
+			path: app/Support/Adapters/UnicodePdfAdapter.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>locale" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Support/Adapters/UniversalSlugAdapter.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>currency" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: app/Support/helpers.php

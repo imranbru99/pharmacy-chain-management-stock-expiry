@@ -1,0 +1,20 @@
+{
+    "key": "notifications",
+    "name": "Notifications",
+    "version": "1.0.0",
+    "description": "SMS, email, and in-app notification templates.",
+    "dependencies": [],
+    "permissions": [
+        "notifications.view",
+        "notifications.send",
+        "notifications.manage"
+    ],
+    "navigation": {
+        "group": "System",
+        "icon": "heroicon-o-bell",
+        "sort": 190
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

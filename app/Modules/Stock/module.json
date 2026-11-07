@@ -1,0 +1,24 @@
+{
+    "key": "stock",
+    "name": "Stock & Inventory",
+    "version": "1.0.0",
+    "description": "Branch stock levels, batches, and adjustments.",
+    "dependencies": [],
+    "permissions": [
+        "stock.view",
+        "stock.create",
+        "stock.update",
+        "stock.delete",
+        "stock.adjust"
+    ],
+    "navigation": {
+        "group": "Catalog & Inventory",
+        "icon": "heroicon-o-cube",
+        "sort": 20
+    },
+    "settings_schema": {
+        "allow_negative_stock": false
+    },
+    "default_enabled": true,
+    "always_on": false
+}

@@ -1,0 +1,23 @@
+{
+    "key": "transfers",
+    "name": "Inter-Branch Transfers",
+    "version": "1.0.0",
+    "description": "Stock transfers between branches and warehouses.",
+    "dependencies": [
+        "stock"
+    ],
+    "permissions": [
+        "transfers.view",
+        "transfers.create",
+        "transfers.approve",
+        "transfers.receive"
+    ],
+    "navigation": {
+        "group": "Catalog & Inventory",
+        "icon": "heroicon-o-arrows-right-left",
+        "sort": 40
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}

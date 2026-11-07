@@ -1,0 +1,23 @@
+{
+    "key": "sales",
+    "name": "Sales & Invoicing",
+    "version": "1.0.0",
+    "description": "Sales history, returns, and wholesale invoicing.",
+    "dependencies": [
+        "catalog"
+    ],
+    "permissions": [
+        "sales.view",
+        "sales.create",
+        "sales.refund",
+        "sales.export"
+    ],
+    "navigation": {
+        "group": "Sales",
+        "icon": "heroicon-o-banknotes",
+        "sort": 100
+    },
+    "settings_schema": {},
+    "default_enabled": true,
+    "always_on": false
+}
